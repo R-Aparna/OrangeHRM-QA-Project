@@ -21,7 +21,6 @@ The goal of this project is to showcase real-world QA skills including:
 - Username case sensitivity
 - Space character handling
 - Error message behavior
-- Post-error login behavior
 
 ## Testing Approach
 - Manual functional testing
@@ -30,21 +29,19 @@ The goal of this project is to showcase real-world QA skills including:
 - UI and usability checks
 
 ## Project Structure
-OrangeHRM-QA-Project/
-├── Test-Plan/
-│   └── README.md       # Contains detailed test plan for Login feature
-├── Test-Cases/
-│   └── README.md       # Contains detailed test cases for Login feature
-└── Defects/
-    └── README.md       # Contains identified defects with steps, expected vs actual
+OrangeHRM-QA-Project
+1) Test-Plan
+    README.md       # Contains detailed test plan for Login feature
+2) Test-Cases
+    README.md       # Contains detailed test cases for Login feature
+ 3) Defects
+    README.md       # Contains identified defects with steps, expected vs actual
 
 
 ## Key Highlights
 - Designed detailed test cases covering positive, negative, and edge scenarios
 - Identified functional and usability defects based on actual application behavior
 - Applied severity and priority based on real-world impact
-- Avoided logging invalid defects through behavior analysis
-
 
 ## Tools & Skills Demonstrated
 - Manual Testing
